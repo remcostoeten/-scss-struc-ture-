@@ -1,0 +1,218 @@
+﻿.empty-cart > img {
+    margin-top: 40px;
+}
+
+.empty-cart > span {
+    margin-top: 35px;
+}
+
+.shoppingcart-empty-button {
+    background-image: linear-gradient(-180deg, #009de0 0%, #0081c7 100%);
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    vertical-align: middle;
+    margin-top: 24px;
+    padding: 14px 16px 16px 20px;
+    text-decoration: none;
+}
+
+.shoppingcart-empty-button > img {
+    margin-left: 8px;
+}
+
+.shoppingcart {
+    width: 100%;
+    margin-top: 27px;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.shopping-cart-row {
+    border-bottom: 1px solid $border-color;
+    max-height: 100%;
+    padding-bottom: 12px;
+}
+
+th {
+    vertical-align: middle;
+}
+
+.shoppingcart thead {
+    background: $color-extra-light-grey;
+    border: 1px solid $border-color;
+    border-radius: 4px;
+}
+
+.shoppingcart th {
+    padding-right: 12px;
+    font-weight: normal;
+}
+
+.shoppingcart th:first-child {
+    padding: 12px 15px;
+}
+
+.shoppingcart-summary {
+    background: $color-extra-light-grey;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.shoppingcart-product-info-container {
+    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox; /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Chrome */
+    display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ */
+    flex-direction: row;
+    padding: 16px 0 16px 0;
+}
+
+.shoppingcart-product-info {
+    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox; /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Chrome */
+    display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ */
+    flex-direction: column;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-left: 16px;
+}
+
+.shoppingcart-product-action {
+    margin-left: 16px;
+    font-size: 11px;
+    text-decoration: none;
+    color: $color-secondary;
+    cursor: pointer;
+}
+
+.shoppingcart-product-action img {
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.shoppingcart-image-container {
+    display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ */
+    float: left;
+    min-width: 116px;
+    padding-top: 16px;
+    width: 116px;
+}
+
+.shoppingcart-image {
+    display: block;
+    height: auto;
+    max-width: 116px;
+    margin: auto;
+    padding-top: 16px;
+    width: auto;
+}
+
+.shoppingcart-product-title {
+    font-size: 14px;
+    margin: 0;
+}
+
+.shoppingcart-product-title a {
+    color: $color-secondary;
+    text-decoration: none;
+}
+
+.shoppingcart-product-title a:hover {
+    text-decoration: underline;
+}
+
+.shoppingcart-quantity {
+    padding-top: 16px;
+    vertical-align: top;
+}
+
+.shoppingcart-quantity-input {
+    width: 100%;
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.shoppingcart-sub-price {
+    text-align: right;
+    font-weight: 600;
+    font-size: 16px;
+    padding-right: 16px;
+    padding-top: 20px;
+    vertical-align: top;
+}
+
+.shoppingcart-total {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.shoppingcart-free-shipping {
+    font-weight: 600;
+    color: #ff6400;
+    text-align: right;
+    font-size: 16px;
+}
+
+.shoppingcart-buttons {
+    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox; /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Chrome */
+    display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ */
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+    margin-top: 16px;
+}
+
+.shoppingcart-button {
+    width: 160px;
+    height: 48px;
+}
+
+.shoppingcart-button > a {
+    font-size: 14px;
+    display: block;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.shoppingcart-order-button {
+    background-image: linear-gradient(-180deg, #009de0 0%, #0081c7 100%);
+    border-width: 0px;
+    border-radius: 4px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 600;
+    height: 48px;
+    text-transform: uppercase;
+    width: 330px;
+}
+
+.shoppingcart-image-column {
+    width: 116px;
+}
+
+.shoppingcart-description-column {
+    width: 100%;
+}
+
+.shoppingcart-quantity-column {
+    width: 171px;
+}
+
+.shoppingcart-price-column {
+    width: 152px;
+}

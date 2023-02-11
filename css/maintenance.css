@@ -1,0 +1,111 @@
+﻿header {
+}
+
+@font-face {
+    font-family: 'Open Sans-Bold';
+    src: url("/fonts/OpenSans-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+html {
+    font-size: 16px;
+}
+
+strong, .font-weight-bold {
+    font-weight: normal;
+    font-family: 'Open Sans-Bold', sans-serif;
+}
+
+h1 {
+    font-size: 18px;
+    color: #003247;
+    letter-spacing: -0.3px;
+    text-align: left;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 576px) {
+    h1 {
+        font-size: 16px;
+    }
+    
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 577px) {
+    body {
+        font-size: 18px;
+    }
+
+    .container {
+        width: 600px;
+    }
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #003247;
+    letter-spacing: 0;
+    text-align: left;
+    line-height: 24px;
+    margin: 0;
+}
+
+
+.header {
+    display: grid !important;
+    justify-content: center;
+    align-items: center;
+    max-width: 1584px;
+    width: 100%;
+    padding: 0;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.logo {
+
+}
+
+.jumbotron {
+    background-color: #F6F9FC;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.content {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #003247;
+    text-align: left;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+.title.image {
+    background-image: url("/icon-tip-blue-32.svg");
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+}
+
+.button {
+    background-color: transparent;
+    border: 1px solid #C7D2D9;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+
+    width: 100%;
+}
+
+a {
+    color: #003247;
+    text-decoration: none;
+}

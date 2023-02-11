@@ -1,0 +1,99 @@
+// .list-animation-wrapper:has(.active-animation) {
+//     .tile {
+//         .tile {
+//             $bezier-grid: cubic-bezier(0.31, 0.14, 0.4, 1.45);
+//             animation: grid-out $bezier-grid;
+//             animation-duration: $animation-durating * 1.8;
+
+//             &:first-child {
+//                 animation: list-in $bezier-grid;
+//                 animation-duration: $animation-durating;
+//             }
+
+//             &:nth-child(2) {
+//                 animation: list-in $bezier-grid;
+//                 animation-duration: $animation-durating * 1.2;
+//                 animation-fill-mode: forwards;
+//                 margin-right: -20px;
+//             }
+
+//             &:nth-child(3) {
+//                 animation: list-in $bezier-grid;
+//                 animation-duration: $animation-durating * 1.4;
+//                 margin-right: -40px;
+//                 animation-fill-mode: forwards;
+//             }
+
+//             &:nth-child(4) {
+//                 animation: list-in $animation-durating $bezier;
+//                 animation-duration: $animation-durating * 1.6;
+//                 animation-fill-mode: forwards;
+//                 margin-right: -60px;
+//             }
+//         }
+//         @keyframes list-in {
+//             0% {
+//                 transform: translateX(100vw);
+//                 opacity: 0;
+//                 background-color: yellow;
+//             }
+//             90% {
+//                 opacity: 100;
+//             }
+//             100% {
+//                 transform: translatex(0);
+//                 opacity: 0;
+//             }
+//         }
+//     }
+// }
+
+// .list {
+//     .grid-out {
+//         position: absolute;
+//         z-index: 999;
+//         background-color: red;
+//         .tile {
+//             animation: grid-out $bezier;
+//             animation-duration: $animation-durating * 1.8;
+
+//             &:first-child {
+//                 animation: grid-out $bezier;
+//                 animation-duration: $animation-durating;
+//             }
+
+//             &:nth-child(2) {
+//                 animation: grid-out $bezier;
+//                 animation-duration: $animation-durating * 1.2;
+//             }
+
+//             &:nth-child(3) {
+//                 animation: grid-out $bezier;
+//                 animation-duration: $animation-durating * 1.4;
+//             }
+
+//             &:nth-child(4) {
+//                 animation: grid-out $animation-durating $bezier;
+//                 animation-duration: $animation-durating * 1.6;
+//             }
+
+//             @keyframes grid-out {
+//                 0% {
+//                     transform: translateY(0);
+//                     opacity: 100;
+//                 }
+
+//                 100% {
+//                     opacity: 0;
+//                     transform: translateY(100vh);
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// .grid {
+// &:first-child {
+// display: none;
+// }
+// }

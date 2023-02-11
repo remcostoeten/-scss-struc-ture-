@@ -1,0 +1,77 @@
+﻿
+/* search autocomplete/suggest*/
+// TODO: Migrate to SCSS
+
+.suggest-items .suggest-group {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #0064bb;
+    border-bottom: 1px solid #d4d4d4;
+    font-weight: bold;
+}
+.suggest-items .suggest-item {
+    cursor: pointer;
+    position: relative;
+    background-color: #fff;
+    border-bottom: 1px solid #d4d4d4;
+}
+.suggest-item a {
+    padding: 10px;
+    display: block;
+}
+.suggest-item span {
+  padding: 10px;
+}
+.suggest-item-category-fullwidth {
+  flex-basis: 100%;
+}
+.suggest-item-count {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #b503c6;
+    border-bottom-left-radius: 4px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: -0.36px;
+    text-align: right;
+    line-height: 36px;
+}
+.suggest-item-count span {
+    display: block;
+    padding: 0 10px;
+}
+.suggest-item .media .media-img {
+    display: block;
+    width: 64px;
+    height: 64px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.suggest-items .suggest-item:hover {
+    /*when hovering an item:*/
+    background-color: #e9e9e9;
+}
+.suggest-loader {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.suggest-active {
+    /*when navigating through the items using the arrow keys:*/
+    background-color: DodgerBlue !important;
+    color: #ffffff;
+}
+.suggest-active a {
+    color: #fff;
+}
+.suggest-item.suggest-active .media-body h5 span {
+    color: #fff;
+}
+/* end of search autocomplete/suggest*/

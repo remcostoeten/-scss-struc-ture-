@@ -1,0 +1,55 @@
+// My account navigation
+.overview-menu {
+    ul {
+        padding-left: 0;
+        list-style: none;
+
+        li {
+            height: 32px;
+            padding-left: 36px;
+            transition: 0.5s padding ease;
+            position: relative;
+
+            &.active {
+                color: $color-secondary;
+
+                &:before {
+                    color: $color-secondary;
+                }
+            }
+
+            &:hover {
+                color: $color-secondary;
+            }
+
+            &:before {
+                font-family: $font-icons;
+                content: $arrow-foward;
+                font-size: 12px;
+                left: 16px;
+                position: absolute;
+                color: $color-primary;
+                top: 9px;
+            }
+        }
+    }
+}
+
+.overview-menu-header {
+    display: flex;
+    margin-bottom: 16px;
+
+    img {
+        margin-right: 16px;
+        height: 32px;
+        width: 32px;
+    }
+
+    .inner {
+        span {
+            font-size: 12px;
+            letter-spacing: 0;
+            font-weight: $font-weight__normal;
+        }
+    }
+}
