@@ -1,0 +1,1 @@
+#Still not perfect but this has a lot of site specific stuff removed which will be unique every project. Colors and sizing should still be edited but this is a better starting point than the bloated version.
