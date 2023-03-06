@@ -7,10 +7,7 @@ body {
 	font-family: $font-primary, sans-serif;
 	font-size: $text-base--regular;
 	color: $color-secondary;
-	letter-spacing: 0;
-	text-align: left;
-	line-height: 24px;
-	margin: 0;
+	// line-height: 24px;
 
 	.modal-backdrop {
 		background-color: $color-medium-grey;

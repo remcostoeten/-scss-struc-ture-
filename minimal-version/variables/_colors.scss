@@ -1,11 +1,17 @@
-// Primary colors
+// Should be adjusted based on the given design. Depending on the design accent colors or color octonary (3) should be added. Or if a very enthousiast designer quaternary  (4)
+
+// Theme colors
 $color-primary: #0092d2;
+$primary-color: $color-primary;
 $color-secondary: #003247;
+
+// Gradient
 $color-primary-gradient1: #009de0;
 $color-primary-gradient2: #0081c7;
-$primary-color: $color-primary;
 
-// Greys
+// *ALl colors given by the stylguide. Because of conistency there should be no reason to ever use a #hex value in the scss. Only variables which are defined here.
+
+// ALl greys
 $color-extra-light-grey: #f6f9fc;
 $color-light-grey: #d8e3eb;
 $color-grey: #c7d2d9;
@@ -13,8 +19,7 @@ $color-medium-grey: #9aabb3;
 $color-dark-grey: #74838a;
 $color-grey-border: #c7d2d9;
 
-//Colors Accent
-//Colors Accent
+// Design colors
 $color-green: #0eae0e;
 $color-orange: #ff6400;
 $color-red: #d0021b;
@@ -24,11 +29,4 @@ $color-blue-disabeled: #72b4e0;
 
 $heading-color: $color-secondary;
 $color-white: #fff;
-$card-shadow: 0 8px 20px 0 rgba(22, 60, 92, 0.1);
-$menu-shadow: 0 2px 6px 0 rgba(22, 60, 92, 0.2),
-	0 4px 16px 0 rgba(22, 60, 92, 0.24);
-$popup-overlay: 0 2px 6px 0 rgba(38, 82, 104, 0.1),
-	0 8px 24px 0 rgba(22, 60, 92, 0.26);
-$overlay: rgba(154, 171, 179, 0.4);
-
 $border-color: $color-grey;
